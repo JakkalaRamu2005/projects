@@ -1,0 +1,27 @@
+.quote-box{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+}
+.btn{
+    color:white;
+    height: 30px;
+    width: 130px;
+    background-color: violet;
+    border: 0px solid;
+    border-radius: 100px;
+    margin-top: 10px;
+
+}
+.quote{
+    font-size: 30px;
+    font-family:"Roboto","Bree Serif";
+    color:rgb(38, 255, 0);
+    font-weight: bold;
+}
+.quote:hover{
+    font-size: 40px;
+}
