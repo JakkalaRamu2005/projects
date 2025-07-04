@@ -1,0 +1,42 @@
+@media screen and (min-width: 760px) {
+    .card-1 {
+        box-shadow: inset;
+        margin: 20px;
+    }
+
+    .skills-section {
+        display: flex;
+        flex-direction: row;
+    }
+    .two-cards{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+.skills-section{
+    margin-top: 20px;
+}
+.skills-heading{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+@media screen and (max-width:650px) {
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .two-cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+}

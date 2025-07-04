@@ -1,0 +1,114 @@
+
+
+/* about me section */
+
+.bg-home{
+    height: 70vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bg-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+
+}
+.bg-flex img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 100px;
+   
+}
+
+.about-me{
+    width: 50%;
+    margin-top: 30px;
+    
+}
+.about-me h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.about-me p{
+    font-size:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* skills-section */
+
+.skills-section{ 
+    height: 60vh;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cards-flex{
+   
+    margin-bottom: 25px;
+    
+}
+.card{
+    height: 200px;
+    width: 200px;
+    /* border-radius: 100px; */
+    box-shadow: aquamarine;
+    margin: 10px;
+    background-color: black;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+}
+.card img{
+    /* padding: -20px; */
+    height: 170px;
+    width: 150px
+    
+
+    
+}
+
+
+
+/* project-section-styling */
+
+.projects-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-card{
+    background-color: lightblue;
+    height: 30%;
+    width: 20%;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    font-family:"Roboto";
+    text-align: center;
+    padding: 25px;
+    margin: 15px;
+}
+.project-img{
+    height: 25%;
+    width: 25%;
+}
+.dwd{
+    height: 100px;
+    width: 400px;
+}

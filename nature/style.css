@@ -1,0 +1,320 @@
+ /* header and navbar stylescss */
+ header {
+     background-color: black;
+ }
+
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+ @media screen and (min-width:768px) {
+     .logo {
+         height: 100px;
+         width: 100px;
+         border-radius: 50%;
+         padding: 10px;
+     }
+
+     li {
+         font-size: 20px;
+         color: white;
+         font-family: "Roboto";
+         margin-left: 45px;
+         list-style-type: none;
+
+     }
+
+     .navbar {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+     }
+
+     .navbar-list {
+         display: flex;
+         flex-direction: row;
+         margin-top: 50px;
+         margin-right: 200px;
+
+     }
+
+
+ }
+
+ @media screen and (max-width:767px) {
+     .navbar-list {
+         display: none;
+     }
+
+     .logo {
+         height: 50px;
+         width: 50px;
+         border-radius: 50%;
+         padding: 10px;
+     }
+ }
+
+ /* homebgpage-css styles */
+ .bg-container {
+     height: 85vh;
+     background-image: url("https://res.cloudinary.com/dcsglluc4/image/upload/v1741981251/images_bhyz0g.jpg");
+     background-size: cover;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ @media screen and (min-width:768px) {
+     .content {
+         width: 60%;
+     }
+
+     .nature-heading {
+         font-size: 50px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         margin-bottom: 20px;
+         color: balck;
+         font-weight: bolder;
+     }
+
+     .nature-description {
+         font-size: 30px;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         color: white;
+         font-weight: bold;
+         margin-bottom: 20px;
+         margin-top: 40px;
+
+     }
+
+     button {
+         height: 40px;
+         width: 150px;
+         border: solid 0px;
+         font-size: 15px;
+         font-weight: bold;
+         border-radius: 20px;
+         margin-top: 30px;
+     }
+
+ }
+
+ @media screen and (max-width:767px) {
+     .nature-heading {
+         font-size: 40px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         margin-bottom: 20px;
+         color: balck;
+         font-weight: bolder;
+
+     }
+
+     .nature-description {
+         font-size: 25px;
+         color: white;
+         font-weight: bold;
+         margin-bottom: 20px;
+         margin-top: 40px;
+
+     }
+
+     button {
+         height: 40px;
+         width: 150px;
+         border: solid 0px;
+         font-size: 15px;
+         font-weight: bold;
+         border-radius: 20px;
+         margin-top: 30px;
+     }
+ }
+
+ /* gallery-section-media-queries */
+ @media screen and (max-width:640px) {
+     .main-container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+
+     }
+
+     .text-content {
+         padding: 15px;
+     }
+
+     .gallery-heading {
+         font-size: 20px;
+         font-weight: bold;
+         font-family: 'Times New Roman', Times, serif;
+         color: rgb(255, 0, 0);
+
+     }
+
+     .gallery {
+         color: blue;
+         font-weight: bold;
+
+     }
+
+     .gallery-description {
+         font-size: 20px;
+         font-weight: bold;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         color: black;
+
+     }
+
+     .small-device {
+         display: flex;
+         flex-direction: row;
+         margin-bottom: 15px;
+     }
+
+     .images-container {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .card-image {
+         height: 150px;
+         width: 150px;
+         border-radius: 20px;
+         margin: 10px;
+     }
+
+     .card-image:hover {
+         transform: scale(0.9);
+     }
+ }
+
+ @media screen and (min-width:768px) {
+     .main-container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+     }
+
+     .gallery-heading {
+         font-size: 40px;
+         font-weight: bold;
+         font-family: 'Times New Roman', Times, serif;
+         color: rgb(255, 0, 0);
+
+     }
+
+     .gallery {
+         color: blue;
+         font-weight: bold;
+
+     }
+
+     .gallery-description {
+         font-size: 25px;
+         font-weight: bold;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         color: black;
+
+     }
+
+     .images-container {
+         display: flex;
+         flex-direction: row;
+     }
+
+     .small-device {
+         display: flex;
+         flex-direction: row;
+     }
+
+     .card-image {
+         height: 220px;
+         width: 300px;
+         border-radius: 20px;
+         margin: 15px;
+     }
+
+     .card-image:hover {
+         transform: scale(0.9);
+     }
+
+
+ }
+
+ /* savenaturestylecss */
+ @media screen and (min-width: 768px) {
+     .main-save-container {
+         height: 100vh;
+         width: 100%;
+
+     }
+
+     .card-image-save {
+         height: 90%;
+         width: 35%;
+         border-radius: 20px;
+         margin-right: 50px;
+         padding: 20px;
+     }
+
+     .content-card-save {
+         display: flex;
+         flex-direction: row;
+         padding-top: 15px;
+         padding-bottom: 15px;
+         margin-bottom: 15px;
+         height: 33%;
+         width: 100%;
+     }
+
+     .first-card-content {
+         text-align: center;
+         width: 60%;
+     }
+
+     .card-save-heading {
+         font-size: 30px;
+         font-family: 'Courier New', Courier, monospace;
+         color: color(from color srgb r g b);
+     }
+
+     .card-description-save {
+         font-size: 18px;
+         font-family: 'Courier New', Courier, monospace;
+         color: blueviolet;
+         font-weight: bold;
+     }
+ }
+ @media screen and (max-width: 767px){
+    .main-save-container{
+        height: 100vh;
+    }
+    .content-card-save{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        text-align: center;
+        align-items: center;
+        background-color: lightblue;
+        border-radius: 50px;
+        padding: 10px;
+        transition-duration: 5s;
+        transition-timing-function: ease;
+        
+    }
+    .content-card-save:hover{
+        transform: scale(0.9);
+    }
+    .card-image-save{
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+    }
+  .first-card-content{
+    width: 60%;
+  }
+}

@@ -1,0 +1,25 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box {
+    /* margin: 5px; */
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* display-info */
+
+.display {
+    height: 22px;
+    width: 69px;
+    background-color: black;
+}
