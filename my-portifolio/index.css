@@ -3,9 +3,11 @@
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
 }
-nav h1{
+
+nav h1 {
     color: white;
 }
+
 nav {
     display: flex;
     flex-direction: row;
@@ -23,11 +25,11 @@ nav ul li {
 }
 
 
-@media screen and (min-width: 840px) {
-    nav ul li img{
+@media screen and (min-width: 560px) {
+    nav ul li img {
         display: none !important;
     }
-  
+
     li a {
         margin: 10px;
         margin-right: 50px;
@@ -37,25 +39,288 @@ nav ul li {
         font-family: 'Times New Roman', Times, serif;
         text-decoration: none;
     }
-    li{
+
+    li {
         margin-right: 100px;
     }
-    nav h1{
+
+    nav h1 {
         font-weight: 40px;
         font-weight: bold;
     }
 
 }
 
-@media screen and (max-width: 840px) {
-    nav ul li a{
+@media screen and (max-width: 560px) {
+    nav ul li a {
         display: none !important;
     }
-    nav ul li img{
-    height: 30px;
-    width: 30px;
+
+    nav ul li img {
+        height: 30px;
+        width: 30px;
+    }
+
 }
+
+
+/* home-sectionkacode for both medium and small and large devices */
+.home-bg {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+
+    /* color: red; */
+    font-weight: bold;
+
+}
+
+.home-bg h1 {
+    margin-bottom: 20px;
+    color: red;
+}
+
+.home-bg p {
+    /* width: 50%; */
+    text-align: center;
+}
+
+.profile-img {
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.content{
+        width: 50%;
+    }
+
+@media screen and (max-width: 800px) {
+    .home-bg {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    .content{
+        width: 80%;
+    }
+    .profile-head{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .span{
+        color: black;
+    }
+    .profile-img{
+        border-radius: 30px;
+
+    }
+
+}
+@media screen and (min-width: 760px){
+
+    .profile-head{
+        font-size: 40px;
+    }
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: bold;
+    border: 1px black;
+    margin-bottom: 15px;
+}
+
+/* skills-section */
+@media screen and (min-width: 760px) {
    
+
+    .skills-section {
+        display: flex;
+        flex-direction: row;
+    }
+    .two-cards{
+        display: flex;
+        flex-direction: row;
+    }
+    .card-1{
+        background-color: lightblue;
+        padding: 20px;
+        border-radius: 20px;
+        /* height: 30%;
+        width: 25%; */
+         box-shadow: inset;
+        margin: 20px;
+        
+    }
+    .card-img{
+        height: 100%;
+        width: 100%;
+    }
+
+}
+.skills-section{
+    margin-top: 20px;
+}
+.skills-heading{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+@media screen and (max-width:650px) {
+    .skills-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-img {
+        height: 80px;
+        width: 80px;
+    }
+    .card-1{
+        margin-bottom: 20px;
+        margin-right: 10px;
+        background-color: lightblue;
+        height: 90px;
+        width: 90px;
+        padding: 18px;
+    }
+    .two-cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+/* project-section css */
+*{
+    color: black;
+    font-family: "Roboto";
+}
+.anchor{
+    color: black;
+    font-family: "Roboto";
+    
+}
+
+/* smaller-mobile-devices styles */
+@media screen and (max-width: 560px){
+    .card-1{
+        margin: 15px;
+        background-color: lightblue;
+        height: 30%;
+        width: 40%;
+        border-radius: 10px;
+        padding: 8px;
+    }
+    .anchor{
+        font-size: 10px;
+    }
+    .card-tow{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .pro-img{
+        height: 90%;
+        width: 90%;
+    }
+    .projects-heading{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.card-1:hover{
+    transform: scale(0.9);
+    transition-duration: 1s;
+
+}
+
+/* medium-devices  styling*/
+@media screen and (min-width: 560px){
+    .card-1{
+        margin: 15px;
+        background-color: lightblue;
+        height: 50%;
+        width: 40%;
+        border-radius: 10px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .anchor{
+        font-size: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .projects-section{
+        display: flex;
+    }
+    .card-tow{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .pro-img{
+        height: 90%;
+        width: 90%;
+    }
+    .projects-heading{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
 }
 
 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* allscreensizeapply styling */
+.contact-heading{
+    text-align: center;
+}
+
+/* small screen-stylescode */
+@media screen and (max-width: 560px){
+    .contact-heading{
+        font-size: 20px;
+    }
+    .contact-section{
+        text-align: center;
+    }
+    .contact-img{
+        height: 100px;
+        width: 100px;
+    }
+    .input{
+        margin-bottom: 15px;
+        width: 20%;
+    }
+    .msg{
+        width: 30%;
+        height: 50px;
+    }
+}
+
+
+/* medium screen and large-screen styling */
