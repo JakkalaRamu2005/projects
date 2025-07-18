@@ -1,0 +1,21 @@
+.content{
+    display: flex;
+}
+.home-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.about{
+    width: 50%;
+    margin-top: 100px;
+}
+img{
+    height: 400px;
+    width: 500px;
+    margin-bottom: 100px;
+    background-size: cover;
+}
