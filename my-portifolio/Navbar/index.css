@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav h1 {
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+}
+
+
+/* @media screen and (min-width: 861px) {
+    
+} */
+
+
+/* small mobile */
+@media screen and (max-width: 640px) {
+    /* styles for phones */
+    nav ul li a {
+        display: none !important;
+    }
+
+    nav ul li img {
+        height: 30px;
+        width: 30px;
+    }
+    .hamburger{
+        color: white;
+    }
+
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  nav ul li img {
+        display: none !important;
+    }
+
+    li a {
+        margin: 10px;
+        margin-right: 20px;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+    }
+
+    /* li {
+        margin-right: 100px;
+    } */
+
+    nav h1 {
+        font-weight: 40px;
+        font-weight: bold;
+    }
+    .hamburger{
+        color: white;
+    }
+
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for laptops */
+ nav ul li img {
+        display: none !important;
+    }
+
+    li a {
+        /* margin: 10px; */
+        margin-right: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+    }
+
+    li {
+        margin-right: 50px;
+    }
+
+    .heading-nav{
+        font-weight: bold;
+        color: white;
+        font-size: 30px;
+    }
+
+}
+
+/* Desktops */
+@media (min-width: 1441px) {
+  /* Styles for large desktops */
+
+  nav ul li img {
+        display: none !important;
+    }
+
+    li a {
+        /* margin: 10px; */
+        margin-right: 100px;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+    }
+
+    li {
+        margin-right: 50px;
+    }
+
+    .heading-nav{
+        font-weight: bold;
+        color: white;
+        font-size: 40px;
+    }
+}
