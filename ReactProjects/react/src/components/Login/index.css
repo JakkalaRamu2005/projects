@@ -1,0 +1,14 @@
+.container-login{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin-bottom: 10px;
+}
+.error-msg{
+    color: red;
+}
